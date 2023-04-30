@@ -6,17 +6,23 @@
 
     <groupId>tools.nuv</groupId>
     <artifactId>nuvtools-payment-kobana</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>Nuv Tools Payment - Kobana</name>
-    <description>Payment abstraction library to support credit card, bank payment slip and other operations.</description>
-    <url>https://nuv.tools</url>
+    <description>Payment abstraction library to support credit card, bank payment slip and other operations.
+    </description>
+    <url>https://github.com/nuvtools/nuvtools-payment-for-java</url>
+
+    <organization>
+        <name>Nuv Tools</name>
+        <url>https://nuv.tools</url>
+    </organization>
 
     <developers>
         <developer>
-            <organization>Nuv Tools</organization>
-            <organizationUrl>https://nuv.tools</organizationUrl>
+            <id>nuv.tools</id>
+            <name>Nuv Tools</name>
         </developer>
     </developers>
 
@@ -28,7 +34,8 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/nuvtools/nuvtools-payment-for-java.git</url>
+        <url>https://github.com/nuvtools/nuvtools-payment-for-java</url>
+        <connection>https://github.com/nuvtools/nuvtools-payment-for-java.git</connection>
     </scm>
 
     <properties>
